@@ -1,5 +1,12 @@
 // settings
-$gridWidth: 1280px;
+$grid: 1280px;
+$gutter: 20px;
+$border: 1px solid #333;
+
+$txtColor: #333;
+$linkColor: #333;
+$bgColor: #70D5C5;
+$wrapperBgColor: white;
 
 *, *:before, *:after{
 	margin: 0;
@@ -8,25 +15,68 @@ $gridWidth: 1280px;
 	@include box-sizing(border-box);
 }
 
+html, body{
+	font-size: 100%;
+	line-height: 100%;
+}
+
 body{
 	font-family: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
-	font-size: 16px;
-	line-height: 24px;
 	font-weight: normal;
 	color: #222;
-	background: #70D5C5;
+	background: $bgColor;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: $gutter;
+	line-height: 1em;
+	color: $txtColor;
+
+	a{
+		text-decoration: none;
+	}
 }
 
 h1{
-	margin-bottom: 16px;
-	font-size: 56px;
-	line-height: 58px;
-	color: #fff;
-	@include text-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
+	font-size: 3.5em;
+	line-height: 1em;
+}
+
+h2{
+	font-size: 3em;
+}
+
+h3{
+	font-size: 2.5em;
+}
+
+h4{
+	font-size: 2em;
+}
+
+h5{
+	font-size: 1.5em;
+}
+
+h6{
+	font-size: 1.2em;
+}
+
+.light{
+	font-weight: normal;
+}
+
+p{
+	margin-bottom: $gutter;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
 }
 
 a{
-	color: #70D5C5;
+	color: $linkColor;
+	text-decoration: underline;
 }
 
 img{
@@ -42,31 +92,37 @@ iframe{
 .wrapper-main{
 	position: relative;
 	margin: auto;
-	max-width: $gridWidth;
+	max-width: $grid;
 	width: 100%;
+	background: $wrapperBgColor;
 }
 
 .row{
 	position: relative;
 	display: block;
 	width: 100%;
-	background: white;
+	//background: white;
 
 	&:before, &:after{
 		display: table;
 		content: " ";
+		clear: both;
 	}
 }
 
-.columns{
+.columns, .column{
 	float: left;
+	
+	&:last-child{
+		float: right;
+	}
 }
 
 [class^="large-"]{
 	position: relative;
 	display: block;
-	border: 1px solid #666;
-	text-align: center;
+	border: $border;
+	padding: $gutter;
 }
 
 .large-12{
@@ -74,47 +130,47 @@ iframe{
 }
 
 .large-11{
-	width: 91.66666666666663%;
+	width: 91.666%;
 }
 
 .large-10{
-	width: 83.3333333333333%;
+	width: 83.333%;
 }
 
 .large-9{
-	width: 74.99999999999997%;
+	width: 75%;
 }
 
 .large-8{
-	width: 66.66666666666664%;
+	width: 66.666%;
 }
 
 .large-7{
-	width: 58.33333333333331%;
+	width: 58.333%;
 }
 
 .large-6{
-	width: 49.99999999999998%;
+	width: 50%;
 }
 
 .large-5{
-	width: 41.66666666666665%;
+	width: 41.666%;
 }
 
 .large-4{
-	width: 33.33333333333332%;
+	width: 33.333%;
 }
 
 .large-3{
-	width: 24.99999999999999%;
+	width: 25%;
 }
 
 .large-2{
-	width: 16.66666666666666%;
+	width: 16.666%;
 }
 
 .large-1{
-	width: 8.33333333333333%;
+	width: 8.333%;
 }
 
 .button{
