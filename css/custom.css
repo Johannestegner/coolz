@@ -1,4 +1,4 @@
-/* line 11, ../sass/_coolz.scss */
+/* line 15, ../sass/_coolz.scss */
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@
   box-sizing: border-box;
 }
 
-/* line 18, ../sass/_coolz.scss */
+/* line 22, ../sass/_coolz.scss */
 html, body {
   font-size: 100%;
   line-height: 100%;
 }
 
-/* line 23, ../sass/_coolz.scss */
+/* line 27, ../sass/_coolz.scss */
 body {
   font-family: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
   font-weight: normal;
@@ -22,84 +22,84 @@ body {
   background: #70d5c5;
 }
 
-/* line 30, ../sass/_coolz.scss */
+/* line 34, ../sass/_coolz.scss */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 20px;
+  margin-bottom: 0.6em;
   line-height: 1em;
   color: #333333;
 }
-/* line 35, ../sass/_coolz.scss */
+/* line 39, ../sass/_coolz.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
 }
 
-/* line 40, ../sass/_coolz.scss */
+/* line 44, ../sass/_coolz.scss */
 h1 {
   font-size: 3.5em;
   line-height: 1em;
 }
 
-/* line 45, ../sass/_coolz.scss */
+/* line 49, ../sass/_coolz.scss */
 h2 {
   font-size: 3em;
 }
 
-/* line 49, ../sass/_coolz.scss */
+/* line 53, ../sass/_coolz.scss */
 h3 {
   font-size: 2.5em;
 }
 
-/* line 53, ../sass/_coolz.scss */
+/* line 57, ../sass/_coolz.scss */
 h4 {
   font-size: 2em;
 }
 
-/* line 57, ../sass/_coolz.scss */
+/* line 61, ../sass/_coolz.scss */
 h5 {
   font-size: 1.5em;
 }
 
-/* line 61, ../sass/_coolz.scss */
+/* line 65, ../sass/_coolz.scss */
 h6 {
   font-size: 1.2em;
 }
 
-/* line 65, ../sass/_coolz.scss */
+/* line 69, ../sass/_coolz.scss */
 .light {
   font-weight: normal;
 }
 
-/* line 69, ../sass/_coolz.scss */
+/* line 73, ../sass/_coolz.scss */
 p {
-  margin-bottom: 20px;
+  margin-bottom: 0.6em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
-/* line 75, ../sass/_coolz.scss */
+/* line 79, ../sass/_coolz.scss */
 p:last-child {
   margin-bottom: 0;
 }
 
-/* line 80, ../sass/_coolz.scss */
+/* line 84, ../sass/_coolz.scss */
 a {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 85, ../sass/_coolz.scss */
+/* line 89, ../sass/_coolz.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 90, ../sass/_coolz.scss */
+/* line 94, ../sass/_coolz.scss */
 iframe {
   max-width: 100%;
   height: auto;
 }
 
-/* line 95, ../sass/_coolz.scss */
+/* line 99, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
@@ -108,113 +108,127 @@ iframe {
   background: white;
 }
 
-/* line 103, ../sass/_coolz.scss */
+/* line 107, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 108, ../sass/_coolz.scss */
+/* line 112, ../sass/_coolz.scss */
 .row .row {
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -1.25em;
+  margin-right: -1.25em;
   width: auto;
 }
-/* line 114, ../sass/_coolz.scss */
+/* line 118, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 121, ../sass/_coolz.scss */
+/* line 125, ../sass/_coolz.scss */
 .columns, .column {
   float: left;
 }
-/* line 124, ../sass/_coolz.scss */
+/* line 128, ../sass/_coolz.scss */
 .columns:last-child, .column:last-child {
   float: right;
 }
 
-/* line 129, ../sass/_coolz.scss */
+/* line 133, ../sass/_coolz.scss */
 [class^="large-"] {
   position: relative;
   display: block;
-  border: 0px solid #333333;
-  padding: 20px;
+  border: 1px solid #333333;
+  padding: 1.25em;
 }
 
-/* line 136, ../sass/_coolz.scss */
+/* line 140, ../sass/_coolz.scss */
 .large-12 {
   width: 100%;
 }
 
-/* line 140, ../sass/_coolz.scss */
+/* line 144, ../sass/_coolz.scss */
 .large-11 {
   width: 91.666%;
 }
 
-/* line 144, ../sass/_coolz.scss */
+/* line 148, ../sass/_coolz.scss */
 .large-10 {
   width: 83.333%;
 }
 
-/* line 148, ../sass/_coolz.scss */
+/* line 152, ../sass/_coolz.scss */
 .large-9 {
   width: 75%;
 }
 
-/* line 152, ../sass/_coolz.scss */
+/* line 156, ../sass/_coolz.scss */
 .large-8 {
   width: 66.666%;
 }
 
-/* line 156, ../sass/_coolz.scss */
+/* line 160, ../sass/_coolz.scss */
 .large-7 {
   width: 58.333%;
 }
 
-/* line 160, ../sass/_coolz.scss */
+/* line 164, ../sass/_coolz.scss */
 .large-6 {
   width: 50%;
 }
 
-/* line 164, ../sass/_coolz.scss */
+/* line 168, ../sass/_coolz.scss */
 .large-5 {
   width: 41.666%;
 }
 
-/* line 168, ../sass/_coolz.scss */
+/* line 172, ../sass/_coolz.scss */
 .large-4 {
   width: 33.333%;
 }
 
-/* line 172, ../sass/_coolz.scss */
+/* line 176, ../sass/_coolz.scss */
 .large-3 {
   width: 25%;
 }
 
-/* line 176, ../sass/_coolz.scss */
+/* line 180, ../sass/_coolz.scss */
 .large-2 {
   width: 16.666%;
 }
 
-/* line 180, ../sass/_coolz.scss */
+/* line 184, ../sass/_coolz.scss */
 .large-1 {
   width: 8.333%;
 }
 
-/* line 184, ../sass/_coolz.scss */
+/* line 188, ../sass/_coolz.scss */
 .button {
-  border: 1px solid #000;
-  padding: 10px;
+  border: 1px solid;
+  border-top-color: #70D5C5;
+  border-right-color: #70D5C5;
+  border-bottom-color: #70D5C5;
+  border-left-color: #70D5C5;
+  padding: 8px 10px 10px 10px;
+  font-weight: bold;
   color: #fff;
-  background: black;
+  text-decoration: none;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #70d5c5), color-stop(15%, #70d5c5), color-stop(85%, #70d5c5));
+  background: -webkit-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
+  background: -moz-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
+  background: -o-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
+  background: linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 767px) {
