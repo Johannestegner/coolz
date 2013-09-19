@@ -68,6 +68,9 @@ h6{
 
 p{
 	margin-bottom: $gutter;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
 
 	&:last-child{
 		margin-bottom: 0;
@@ -101,7 +104,12 @@ iframe{
 	position: relative;
 	display: block;
 	width: 100%;
-	//background: white;
+
+	.row{
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		width: auto;
+	}
 
 	&:before, &:after{
 		display: table;

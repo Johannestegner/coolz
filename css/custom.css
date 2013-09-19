@@ -72,31 +72,34 @@ h6 {
 /* line 69, ../sass/_coolz.scss */
 p {
   margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
-/* line 72, ../sass/_coolz.scss */
+/* line 75, ../sass/_coolz.scss */
 p:last-child {
   margin-bottom: 0;
 }
 
-/* line 77, ../sass/_coolz.scss */
+/* line 80, ../sass/_coolz.scss */
 a {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 82, ../sass/_coolz.scss */
+/* line 85, ../sass/_coolz.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 87, ../sass/_coolz.scss */
+/* line 90, ../sass/_coolz.scss */
 iframe {
   max-width: 100%;
   height: auto;
 }
 
-/* line 92, ../sass/_coolz.scss */
+/* line 95, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
@@ -105,29 +108,35 @@ iframe {
   background: white;
 }
 
-/* line 100, ../sass/_coolz.scss */
+/* line 103, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 106, ../sass/_coolz.scss */
+/* line 108, ../sass/_coolz.scss */
+.row .row {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: auto;
+}
+/* line 114, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 113, ../sass/_coolz.scss */
+/* line 121, ../sass/_coolz.scss */
 .columns, .column {
   float: left;
 }
-/* line 116, ../sass/_coolz.scss */
+/* line 124, ../sass/_coolz.scss */
 .columns:last-child, .column:last-child {
   float: right;
 }
 
-/* line 121, ../sass/_coolz.scss */
+/* line 129, ../sass/_coolz.scss */
 [class^="large-"] {
   position: relative;
   display: block;
@@ -135,67 +144,67 @@ iframe {
   padding: 20px;
 }
 
-/* line 128, ../sass/_coolz.scss */
+/* line 136, ../sass/_coolz.scss */
 .large-12 {
   width: 100%;
 }
 
-/* line 132, ../sass/_coolz.scss */
+/* line 140, ../sass/_coolz.scss */
 .large-11 {
   width: 91.666%;
 }
 
-/* line 136, ../sass/_coolz.scss */
+/* line 144, ../sass/_coolz.scss */
 .large-10 {
   width: 83.333%;
 }
 
-/* line 140, ../sass/_coolz.scss */
+/* line 148, ../sass/_coolz.scss */
 .large-9 {
   width: 75%;
 }
 
-/* line 144, ../sass/_coolz.scss */
+/* line 152, ../sass/_coolz.scss */
 .large-8 {
   width: 66.666%;
 }
 
-/* line 148, ../sass/_coolz.scss */
+/* line 156, ../sass/_coolz.scss */
 .large-7 {
   width: 58.333%;
 }
 
-/* line 152, ../sass/_coolz.scss */
+/* line 160, ../sass/_coolz.scss */
 .large-6 {
   width: 50%;
 }
 
-/* line 156, ../sass/_coolz.scss */
+/* line 164, ../sass/_coolz.scss */
 .large-5 {
   width: 41.666%;
 }
 
-/* line 160, ../sass/_coolz.scss */
+/* line 168, ../sass/_coolz.scss */
 .large-4 {
   width: 33.333%;
 }
 
-/* line 164, ../sass/_coolz.scss */
+/* line 172, ../sass/_coolz.scss */
 .large-3 {
   width: 25%;
 }
 
-/* line 168, ../sass/_coolz.scss */
+/* line 176, ../sass/_coolz.scss */
 .large-2 {
   width: 16.666%;
 }
 
-/* line 172, ../sass/_coolz.scss */
+/* line 180, ../sass/_coolz.scss */
 .large-1 {
   width: 8.333%;
 }
 
-/* line 176, ../sass/_coolz.scss */
+/* line 184, ../sass/_coolz.scss */
 .button {
   border: 1px solid #000;
   padding: 10px;
