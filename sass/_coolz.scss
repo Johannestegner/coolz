@@ -1,7 +1,7 @@
 // settings
 $grid: 1280px;
 $gutter: 20px;
-$border: 1px solid #333;
+$border: 0px solid #333;
 
 $txtColor: #333;
 $linkColor: #333;
@@ -112,7 +112,7 @@ iframe{
 
 .columns, .column{
 	float: left;
-	
+
 	&:last-child{
 		float: right;
 	}
