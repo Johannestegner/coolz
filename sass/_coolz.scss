@@ -2,7 +2,7 @@
 $grid: 1280px;
 $gutter: 1.25em;
 $margin: 0.6em;
-$border: 1px solid #333;
+$border: 1px solid #eee;
 
 $txtSize: 1.2em;
 $lineHeight: 1.4em;
@@ -86,11 +86,7 @@ a{
 	text-decoration: underline;
 }
 
-img{
-	max-width: 100%;
-	height: auto;
-}
-
+img, 
 iframe{
 	max-width: 100%;
 	height: auto;
@@ -122,7 +118,12 @@ iframe{
 	}
 }
 
-.columns, .column{
+.columns, 
+.column, 
+.col, 
+.cols, 
+.cool, 
+.coolz{
 	float: left;
 
 	&:last-child{
@@ -183,20 +184,4 @@ iframe{
 
 .large-1{
 	width: 8.333%;
-}
-
-.button{
-	border: 1px solid;
-	border-top-color: #70D5C5;
-	border-right-color: #70D5C5;
-	border-bottom-color: #70D5C5;
-	border-left-color: #70D5C5;
-	padding: 8px 10px 10px 10px;
-	font-weight: bold;
-	color: #fff;
-	text-decoration: none;
-	@include text-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
-	@include background(linear-gradient(#70D5C5 0%, #70D5C5 15%, #70D5C5 85%));
-	@include border-radius(6px);
-	@include box-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
 }

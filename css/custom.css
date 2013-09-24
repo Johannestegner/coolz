@@ -87,19 +87,14 @@ a {
   text-decoration: underline;
 }
 
-/* line 89, ../sass/_coolz.scss */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* line 94, ../sass/_coolz.scss */
+/* line 90, ../sass/_coolz.scss */
+img,
 iframe {
   max-width: 100%;
   height: auto;
 }
 
-/* line 99, ../sass/_coolz.scss */
+/* line 95, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
@@ -108,127 +103,110 @@ iframe {
   background: white;
 }
 
-/* line 107, ../sass/_coolz.scss */
+/* line 103, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 112, ../sass/_coolz.scss */
+/* line 108, ../sass/_coolz.scss */
 .row .row {
   margin-left: -1.25em;
   margin-right: -1.25em;
   width: auto;
 }
-/* line 118, ../sass/_coolz.scss */
+/* line 114, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 125, ../sass/_coolz.scss */
-.columns, .column {
+/* line 126, ../sass/_coolz.scss */
+.columns,
+.column,
+.col,
+.cols,
+.cool,
+.coolz {
   float: left;
 }
-/* line 128, ../sass/_coolz.scss */
-.columns:last-child, .column:last-child {
+/* line 129, ../sass/_coolz.scss */
+.columns:last-child,
+.column:last-child,
+.col:last-child,
+.cols:last-child,
+.cool:last-child,
+.coolz:last-child {
   float: right;
 }
 
-/* line 133, ../sass/_coolz.scss */
+/* line 134, ../sass/_coolz.scss */
 [class^="large-"] {
   position: relative;
   display: block;
-  border: 1px solid #333333;
+  border: 1px solid #eeeeee;
   padding: 1.25em;
 }
 
-/* line 140, ../sass/_coolz.scss */
+/* line 141, ../sass/_coolz.scss */
 .large-12 {
   width: 100%;
 }
 
-/* line 144, ../sass/_coolz.scss */
+/* line 145, ../sass/_coolz.scss */
 .large-11 {
   width: 91.666%;
 }
 
-/* line 148, ../sass/_coolz.scss */
+/* line 149, ../sass/_coolz.scss */
 .large-10 {
   width: 83.333%;
 }
 
-/* line 152, ../sass/_coolz.scss */
+/* line 153, ../sass/_coolz.scss */
 .large-9 {
   width: 75%;
 }
 
-/* line 156, ../sass/_coolz.scss */
+/* line 157, ../sass/_coolz.scss */
 .large-8 {
   width: 66.666%;
 }
 
-/* line 160, ../sass/_coolz.scss */
+/* line 161, ../sass/_coolz.scss */
 .large-7 {
   width: 58.333%;
 }
 
-/* line 164, ../sass/_coolz.scss */
+/* line 165, ../sass/_coolz.scss */
 .large-6 {
   width: 50%;
 }
 
-/* line 168, ../sass/_coolz.scss */
+/* line 169, ../sass/_coolz.scss */
 .large-5 {
   width: 41.666%;
 }
 
-/* line 172, ../sass/_coolz.scss */
+/* line 173, ../sass/_coolz.scss */
 .large-4 {
   width: 33.333%;
 }
 
-/* line 176, ../sass/_coolz.scss */
+/* line 177, ../sass/_coolz.scss */
 .large-3 {
   width: 25%;
 }
 
-/* line 180, ../sass/_coolz.scss */
+/* line 181, ../sass/_coolz.scss */
 .large-2 {
   width: 16.666%;
 }
 
-/* line 184, ../sass/_coolz.scss */
+/* line 185, ../sass/_coolz.scss */
 .large-1 {
   width: 8.333%;
-}
-
-/* line 188, ../sass/_coolz.scss */
-.button {
-  border: 1px solid;
-  border-top-color: #70D5C5;
-  border-right-color: #70D5C5;
-  border-bottom-color: #70D5C5;
-  border-left-color: #70D5C5;
-  padding: 8px 10px 10px 10px;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #70d5c5), color-stop(15%, #70d5c5), color-stop(85%, #70d5c5));
-  background: -webkit-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
-  background: -moz-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
-  background: -o-linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
-  background: linear-gradient(#70d5c5 0%, #70d5c5 15%, #70d5c5 85%);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 767px) {
