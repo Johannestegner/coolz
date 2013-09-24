@@ -32,7 +32,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-	margin-bottom: $margin;
+	margin-bottom: 0.3em;
 	line-height: 1em;
 	color: $txtColor;
 
@@ -42,15 +42,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
+	margin-bottom: 0.2em;
 	font-size: 3.5em;
-	line-height: 1em;
 }
 
 h2{
+	margin-bottom: 0.3em;
 	font-size: 3em;
 }
 
 h3{
+	margin-bottom: 0.3em;
 	font-size: 2.5em;
 }
 
@@ -92,6 +94,14 @@ iframe{
 	height: auto;
 }
 
+pre{
+	border: 1px solid #ccc;
+	padding: 5px 8px 5px 8px;
+	white-space: normal;
+	background-color: #eee;
+	@include border-radius(4px);
+}
+
 .wrapper-main{
 	position: relative;
 	margin: auto;
@@ -131,57 +141,69 @@ iframe{
 	}
 }
 
-[class^="large-"]{
+[class^="L-"]{
 	position: relative;
 	display: block;
-	border: $border;
 	padding: $gutter;
 }
 
-.large-12{
+.demo{
+	[class^="L-"]{
+		border: 1px solid #fff;
+		color: #fff;
+		text-align: center;
+		background-color: #E37863;
+
+		&:nth-child(odd){
+			background-color: #eb9f90;
+		}
+	}
+}
+
+.L-12{
 	width: 100%;
 }
 
-.large-11{
+.L-11{
 	width: 91.666%;
 }
 
-.large-10{
+.L-10{
 	width: 83.333%;
 }
 
-.large-9{
+.L-9{
 	width: 75%;
 }
 
-.large-8{
+.L-8{
 	width: 66.666%;
 }
 
-.large-7{
+.L-7{
 	width: 58.333%;
 }
 
-.large-6{
+.L-6{
 	width: 50%;
 }
 
-.large-5{
+.L-5{
 	width: 41.666%;
 }
 
-.large-4{
+.L-4{
 	width: 33.333%;
 }
 
-.large-3{
+.L-3{
 	width: 25%;
 }
 
-.large-2{
+.L-2{
 	width: 16.666%;
 }
 
-.large-1{
+.L-1{
 	width: 8.333%;
 }

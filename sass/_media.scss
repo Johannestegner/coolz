@@ -1,5 +1,10 @@
 @media(screen and max-width: 767px){
-	.columns, .column{
+	.columns, 
+	.column, 
+	.col, 
+	.cols, 
+	.cool, 
+	.coolz{
 		float: none;
 
 		&:last-child{
@@ -7,7 +12,7 @@
 		}
 	}
 
-	[class^="large-"]{
+	[class^="L-"]{
 		width: 100%;
 	}
 }
