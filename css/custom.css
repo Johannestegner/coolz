@@ -1,3 +1,4 @@
+/* > YOUR MIXINS GOES HERE < */
 /* line 15, ../sass/_coolz.scss */
 *, *:before, *:after {
   margin: 0;
@@ -108,8 +109,12 @@ pre {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
+/* line 104, ../sass/_coolz.scss */
+pre code {
+  word-break: break-all;
+}
 
-/* line 105, ../sass/_coolz.scss */
+/* line 109, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
@@ -118,26 +123,26 @@ pre {
   background: white;
 }
 
-/* line 113, ../sass/_coolz.scss */
+/* line 117, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 118, ../sass/_coolz.scss */
+/* line 122, ../sass/_coolz.scss */
 .row .row {
   margin-left: -1.25em;
   margin-right: -1.25em;
   width: auto;
 }
-/* line 124, ../sass/_coolz.scss */
+/* line 128, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 136, ../sass/_coolz.scss */
+/* line 140, ../sass/_coolz.scss */
 .columns,
 .column,
 .col,
@@ -146,7 +151,7 @@ pre {
 .coolz {
   float: left;
 }
-/* line 139, ../sass/_coolz.scss */
+/* line 143, ../sass/_coolz.scss */
 .columns:last-child,
 .column:last-child,
 .col:last-child,
@@ -156,85 +161,102 @@ pre {
   float: right;
 }
 
-/* line 144, ../sass/_coolz.scss */
-[class^="L-"] {
+/* line 149, ../sass/_coolz.scss */
+[class^="L-"],
+[class^="l-"] {
   position: relative;
   display: block;
   padding: 1.25em;
 }
 
-/* line 151, ../sass/_coolz.scss */
-.demo [class^="L-"] {
+/* line 157, ../sass/_coolz.scss */
+.demo [class^="L-"],
+.demo [class^="l-"] {
   border: 1px solid #fff;
   color: #fff;
   text-align: center;
   background-color: #E37863;
 }
-/* line 157, ../sass/_coolz.scss */
-.demo [class^="L-"]:nth-child(odd) {
+/* line 163, ../sass/_coolz.scss */
+.demo [class^="L-"]:nth-child(odd),
+.demo [class^="l-"]:nth-child(odd) {
   background-color: #eb9f90;
 }
 
-/* line 163, ../sass/_coolz.scss */
-.L-12 {
+/* line 170, ../sass/_coolz.scss */
+.L-12,
+.l-12 {
   width: 100%;
 }
 
-/* line 167, ../sass/_coolz.scss */
-.L-11 {
+/* line 175, ../sass/_coolz.scss */
+.L-11,
+.l-11 {
   width: 91.666%;
 }
 
-/* line 171, ../sass/_coolz.scss */
-.L-10 {
+/* line 180, ../sass/_coolz.scss */
+.L-10,
+.l-10 {
   width: 83.333%;
 }
 
-/* line 175, ../sass/_coolz.scss */
-.L-9 {
+/* line 185, ../sass/_coolz.scss */
+.L-9,
+.l-9 {
   width: 75%;
 }
 
-/* line 179, ../sass/_coolz.scss */
-.L-8 {
+/* line 190, ../sass/_coolz.scss */
+.L-8,
+.l-8 {
   width: 66.666%;
 }
 
-/* line 183, ../sass/_coolz.scss */
-.L-7 {
+/* line 195, ../sass/_coolz.scss */
+.L-7,
+.l-7 {
   width: 58.333%;
 }
 
-/* line 187, ../sass/_coolz.scss */
-.L-6 {
+/* line 200, ../sass/_coolz.scss */
+.L-6,
+.l-6 {
   width: 50%;
 }
 
-/* line 191, ../sass/_coolz.scss */
-.L-5 {
+/* line 205, ../sass/_coolz.scss */
+.L-5,
+.l-5 {
   width: 41.666%;
 }
 
-/* line 195, ../sass/_coolz.scss */
-.L-4 {
+/* line 210, ../sass/_coolz.scss */
+.L-4,
+.l-4 {
   width: 33.333%;
 }
 
-/* line 199, ../sass/_coolz.scss */
-.L-3 {
+/* line 215, ../sass/_coolz.scss */
+.L-3,
+.l-3 {
   width: 25%;
 }
 
-/* line 203, ../sass/_coolz.scss */
-.L-2 {
+/* line 220, ../sass/_coolz.scss */
+.L-2,
+.l-2 {
   width: 16.666%;
 }
 
-/* line 207, ../sass/_coolz.scss */
-.L-1 {
+/* line 225, ../sass/_coolz.scss */
+.L-1,
+.l-1 {
   width: 8.333%;
 }
 
+/* > YOUR SCSS GOES HERE < */
+/* > IE SCSS GOES HERE < */
 @media (max-width: 767px) {
   /* line 7, ../sass/_media.scss */
   .columns,
@@ -255,8 +277,9 @@ pre {
     float: none;
   }
 
-  /* line 15, ../sass/_media.scss */
-  [class^="L-"] {
+  /* line 16, ../sass/_media.scss */
+  [class^="L-"],
+  [class^="l-"] {
     width: 100%;
   }
 }

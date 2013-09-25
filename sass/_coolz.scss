@@ -100,6 +100,10 @@ pre{
 	white-space: normal;
 	background-color: #eee;
 	@include border-radius(4px);
+
+	code{
+		word-break: break-all;
+	}
 }
 
 .wrapper-main{
@@ -141,14 +145,16 @@ pre{
 	}
 }
 
-[class^="L-"]{
+[class^="L-"], 
+[class^="l-"]{
 	position: relative;
 	display: block;
 	padding: $gutter;
 }
 
 .demo{
-	[class^="L-"]{
+	[class^="L-"], 
+	[class^="l-"]{
 		border: 1px solid #fff;
 		color: #fff;
 		text-align: center;
@@ -160,50 +166,62 @@ pre{
 	}
 }
 
-.L-12{
+.L-12, 
+.l-12{
 	width: 100%;
 }
 
-.L-11{
+.L-11, 
+.l-11{
 	width: 91.666%;
 }
 
-.L-10{
+.L-10, 
+.l-10{
 	width: 83.333%;
 }
 
-.L-9{
+.L-9, 
+.l-9{
 	width: 75%;
 }
 
-.L-8{
+.L-8, 
+.l-8{
 	width: 66.666%;
 }
 
-.L-7{
+.L-7, 
+.l-7{
 	width: 58.333%;
 }
 
-.L-6{
+.L-6, 
+.l-6{
 	width: 50%;
 }
 
-.L-5{
+.L-5, 
+.l-5{
 	width: 41.666%;
 }
 
-.L-4{
+.L-4, 
+.l-4{
 	width: 33.333%;
 }
 
-.L-3{
+.L-3, 
+.l-3{
 	width: 25%;
 }
 
-.L-2{
+.L-2, 
+.l-2{
 	width: 16.666%;
 }
 
-.L-1{
+.L-1, 
+.l-1{
 	width: 8.333%;
 }
