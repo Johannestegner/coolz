@@ -67,54 +67,57 @@ h6 {
   font-size: 1.2em;
 }
 
-/* line 71, ../sass/_coolz.scss */
-.light {
+/* line 72, ../sass/_coolz.scss */
+.light,
+.thin {
   font-weight: normal;
 }
 
-/* line 75, ../sass/_coolz.scss */
+/* line 76, ../sass/_coolz.scss */
 p {
   margin-bottom: 0.6em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
   line-height: 1.4em;
 }
-/* line 81, ../sass/_coolz.scss */
+/* line 82, ../sass/_coolz.scss */
 p:last-child {
   margin-bottom: 0;
 }
 
-/* line 86, ../sass/_coolz.scss */
+/* line 87, ../sass/_coolz.scss */
 a {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 92, ../sass/_coolz.scss */
+/* line 93, ../sass/_coolz.scss */
 img,
 iframe {
   max-width: 100%;
   height: auto;
 }
 
-/* line 97, ../sass/_coolz.scss */
+/* line 98, ../sass/_coolz.scss */
 pre {
+  margin-bottom: 1.25em;
   border: 1px solid #ccc;
   padding: 5px 8px 5px 8px;
-  white-space: normal;
+  word-break: break-all;
   background-color: #eee;
+  overflow-x: hidden;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 104, ../sass/_coolz.scss */
+/* line 107, ../sass/_coolz.scss */
 pre code {
   word-break: break-all;
 }
 
-/* line 109, ../sass/_coolz.scss */
+/* line 112, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
@@ -123,26 +126,26 @@ pre code {
   background: white;
 }
 
-/* line 117, ../sass/_coolz.scss */
+/* line 120, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 122, ../sass/_coolz.scss */
+/* line 125, ../sass/_coolz.scss */
 .row .row {
   margin-left: -1.25em;
   margin-right: -1.25em;
   width: auto;
 }
-/* line 128, ../sass/_coolz.scss */
+/* line 131, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 140, ../sass/_coolz.scss */
+/* line 143, ../sass/_coolz.scss */
 .columns,
 .column,
 .col,
@@ -151,7 +154,7 @@ pre code {
 .coolz {
   float: left;
 }
-/* line 143, ../sass/_coolz.scss */
+/* line 146, ../sass/_coolz.scss */
 .columns:last-child,
 .column:last-child,
 .col:last-child,
@@ -161,95 +164,101 @@ pre code {
   float: right;
 }
 
-/* line 149, ../sass/_coolz.scss */
-[class^="L-"],
-[class^="l-"] {
+/* line 154, ../sass/_coolz.scss */
+[class*="L-"],
+[class*="l-"],
+[class*="S-"],
+[class*="s-"] {
   position: relative;
   display: block;
   padding: 1.25em;
 }
 
-/* line 157, ../sass/_coolz.scss */
-.demo [class^="L-"],
-.demo [class^="l-"] {
+/* line 164, ../sass/_coolz.scss */
+.demo [class*="L-"],
+.demo [class*="l-"],
+.demo [class*="S-"],
+.demo [class*="s-"] {
   border: 1px solid #fff;
   color: #fff;
   text-align: center;
   background-color: #E37863;
 }
-/* line 163, ../sass/_coolz.scss */
-.demo [class^="L-"]:nth-child(odd),
-.demo [class^="l-"]:nth-child(odd) {
+/* line 170, ../sass/_coolz.scss */
+.demo [class*="L-"]:nth-child(odd),
+.demo [class*="l-"]:nth-child(odd),
+.demo [class*="S-"]:nth-child(odd),
+.demo [class*="s-"]:nth-child(odd) {
   background-color: #eb9f90;
 }
 
-/* line 170, ../sass/_coolz.scss */
+/* line 177, ../sass/_coolz.scss */
 .L-12,
 .l-12 {
   width: 100%;
 }
 
-/* line 175, ../sass/_coolz.scss */
+/* line 182, ../sass/_coolz.scss */
 .L-11,
 .l-11 {
   width: 91.666%;
 }
 
-/* line 180, ../sass/_coolz.scss */
+/* line 187, ../sass/_coolz.scss */
 .L-10,
 .l-10 {
   width: 83.333%;
 }
 
-/* line 185, ../sass/_coolz.scss */
+/* line 192, ../sass/_coolz.scss */
 .L-9,
 .l-9 {
   width: 75%;
 }
 
-/* line 190, ../sass/_coolz.scss */
+/* line 197, ../sass/_coolz.scss */
 .L-8,
 .l-8 {
   width: 66.666%;
 }
 
-/* line 195, ../sass/_coolz.scss */
+/* line 202, ../sass/_coolz.scss */
 .L-7,
 .l-7 {
   width: 58.333%;
 }
 
-/* line 200, ../sass/_coolz.scss */
+/* line 207, ../sass/_coolz.scss */
 .L-6,
 .l-6 {
   width: 50%;
 }
 
-/* line 205, ../sass/_coolz.scss */
+/* line 212, ../sass/_coolz.scss */
 .L-5,
 .l-5 {
   width: 41.666%;
 }
 
-/* line 210, ../sass/_coolz.scss */
+/* line 217, ../sass/_coolz.scss */
 .L-4,
 .l-4 {
   width: 33.333%;
 }
 
-/* line 215, ../sass/_coolz.scss */
+/* line 222, ../sass/_coolz.scss */
 .L-3,
 .l-3 {
   width: 25%;
 }
 
-/* line 220, ../sass/_coolz.scss */
+/* line 227, ../sass/_coolz.scss */
 .L-2,
 .l-2 {
   width: 16.666%;
 }
 
-/* line 225, ../sass/_coolz.scss */
+/* line 232, ../sass/_coolz.scss */
 .L-1,
 .l-1 {
   width: 8.333%;
@@ -257,8 +266,21 @@ pre code {
 
 /* > YOUR SCSS GOES HERE < */
 /* > IE SCSS GOES HERE < */
+@media (min-width: 768px) {
+  /* line 3, ../sass/_media.scss */
+  .L-hide,
+  .l-hide {
+    display: none;
+  }
+
+  /* line 8, ../sass/_media.scss */
+  .L-show,
+  .l-show {
+    display: block;
+  }
+}
 @media (max-width: 767px) {
-  /* line 7, ../sass/_media.scss */
+  /* line 19, ../sass/_media.scss */
   .columns,
   .column,
   .col,
@@ -267,7 +289,7 @@ pre code {
   .coolz {
     float: none;
   }
-  /* line 10, ../sass/_media.scss */
+  /* line 22, ../sass/_media.scss */
   .columns:last-child,
   .column:last-child,
   .col:last-child,
@@ -277,9 +299,99 @@ pre code {
     float: none;
   }
 
-  /* line 16, ../sass/_media.scss */
-  [class^="L-"],
-  [class^="l-"] {
+  /* line 28, ../sass/_media.scss */
+  [class*="L-"],
+  [class*="l-"] {
     width: 100%;
+  }
+
+  /* line 33, ../sass/_media.scss */
+  [class*="S-"],
+  [class*="s-"] {
+    width: auto;
+  }
+
+  /* line 38, ../sass/_media.scss */
+  .S-12,
+  .s-12 {
+    width: 100%;
+  }
+
+  /* line 43, ../sass/_media.scss */
+  .S-11,
+  .s-11 {
+    width: 91.666%;
+  }
+
+  /* line 48, ../sass/_media.scss */
+  .S-10,
+  .s-10 {
+    width: 83.333%;
+  }
+
+  /* line 53, ../sass/_media.scss */
+  .S-9,
+  .s-9 {
+    width: 75%;
+  }
+
+  /* line 58, ../sass/_media.scss */
+  .S-8,
+  .s-8 {
+    width: 66.666%;
+  }
+
+  /* line 63, ../sass/_media.scss */
+  .S-7,
+  .s-7 {
+    width: 58.333%;
+  }
+
+  /* line 68, ../sass/_media.scss */
+  .S-6,
+  .s-6 {
+    width: 50%;
+  }
+
+  /* line 73, ../sass/_media.scss */
+  .S-5,
+  .s-5 {
+    width: 41.666%;
+  }
+
+  /* line 78, ../sass/_media.scss */
+  .S-4,
+  .s-4 {
+    width: 33.333%;
+  }
+
+  /* line 83, ../sass/_media.scss */
+  .S-3,
+  .s-3 {
+    width: 25%;
+  }
+
+  /* line 88, ../sass/_media.scss */
+  .S-2,
+  .s-2 {
+    width: 16.666%;
+  }
+
+  /* line 93, ../sass/_media.scss */
+  .S-1,
+  .s-1 {
+    width: 8.333%;
+  }
+
+  /* line 98, ../sass/_media.scss */
+  .S-hide,
+  .s-hide {
+    display: none;
+  }
+
+  /* line 103, ../sass/_media.scss */
+  .S-show,
+  .s-show {
+    display: block;
   }
 }
