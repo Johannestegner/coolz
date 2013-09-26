@@ -296,14 +296,14 @@ pre code {
 /* > IE SCSS GOES HERE < */
 @media (min-width: 768px) {
   /* line 3, ../sass/_media.scss */
-  .L-hide,
-  .l-hide {
+  .hide-L,
+  .hide-l {
     display: none;
   }
 
   /* line 8, ../sass/_media.scss */
-  .L-show,
-  .l-show {
+  .show-L,
+  .show-l {
     display: block;
   }
 }
@@ -327,99 +327,131 @@ pre code {
     float: none;
   }
 
-  /* line 28, ../sass/_media.scss */
+  /* line 30, ../sass/_media.scss */
+  [class*="Large-"],
+  [class*="large-"],
   [class*="L-"],
   [class*="l-"] {
     width: 100%;
   }
 
-  /* line 33, ../sass/_media.scss */
+  /* line 37, ../sass/_media.scss */
+  [class*="Small-"],
+  [class*="small-"],
   [class*="S-"],
   [class*="s-"] {
     width: auto;
   }
 
-  /* line 38, ../sass/_media.scss */
+  /* line 44, ../sass/_media.scss */
+  .Small-12,
+  .small-12,
   .S-12,
   .s-12 {
     width: 100%;
   }
 
-  /* line 43, ../sass/_media.scss */
+  /* line 51, ../sass/_media.scss */
+  .Small-11,
+  .small-11,
   .S-11,
   .s-11 {
     width: 91.666%;
   }
 
-  /* line 48, ../sass/_media.scss */
+  /* line 58, ../sass/_media.scss */
+  .Small-10,
+  .small-10,
   .S-10,
   .s-10 {
     width: 83.333%;
   }
 
-  /* line 53, ../sass/_media.scss */
+  /* line 65, ../sass/_media.scss */
+  .Small-9,
+  .small-9,
   .S-9,
   .s-9 {
     width: 75%;
   }
 
-  /* line 58, ../sass/_media.scss */
+  /* line 72, ../sass/_media.scss */
+  .Small-8,
+  .small-8,
   .S-8,
   .s-8 {
     width: 66.666%;
   }
 
-  /* line 63, ../sass/_media.scss */
+  /* line 79, ../sass/_media.scss */
+  .Small-7,
+  .small-7,
   .S-7,
   .s-7 {
     width: 58.333%;
   }
 
-  /* line 68, ../sass/_media.scss */
+  /* line 86, ../sass/_media.scss */
+  .Small-6,
+  .small-6,
   .S-6,
   .s-6 {
     width: 50%;
   }
 
-  /* line 73, ../sass/_media.scss */
+  /* line 93, ../sass/_media.scss */
+  .Small-5,
+  .small-5,
   .S-5,
   .s-5 {
     width: 41.666%;
   }
 
-  /* line 78, ../sass/_media.scss */
+  /* line 100, ../sass/_media.scss */
+  .Small-4,
+  .small-4,
   .S-4,
   .s-4 {
     width: 33.333%;
   }
 
-  /* line 83, ../sass/_media.scss */
+  /* line 107, ../sass/_media.scss */
+  .Small-3,
+  .small-3,
   .S-3,
   .s-3 {
     width: 25%;
   }
 
-  /* line 88, ../sass/_media.scss */
+  /* line 114, ../sass/_media.scss */
+  .Small-2,
+  .small-2,
   .S-2,
   .s-2 {
     width: 16.666%;
   }
 
-  /* line 93, ../sass/_media.scss */
+  /* line 121, ../sass/_media.scss */
+  .Small-1,
+  .small-1,
   .S-1,
   .s-1 {
     width: 8.333%;
   }
 
-  /* line 98, ../sass/_media.scss */
-  .S-hide,
-  .s-hide {
+  /* line 128, ../sass/_media.scss */
+  .hide-Small,
+  .hide-small,
+  .hide-S,
+  .hide-s {
     display: none;
   }
 
-  /* line 103, ../sass/_media.scss */
-  .S-show,
-  .s-show {
+  /* line 135, ../sass/_media.scss */
+  .show-Small,
+  .show-small,
+  .show-S,
+  .show-s {
     display: block;
   }
 }
