@@ -80,7 +80,7 @@ p{
 	line-height: $lineHeight;
 
 	&:last-child{
-		margin-bottom: 0;
+		//margin-bottom: 0;
 	}
 }
 
@@ -91,6 +91,7 @@ a{
 
 img, 
 iframe{
+	margin-bottom: $margin;
 	max-width: 100%;
 	height: auto;
 }
@@ -113,6 +114,7 @@ pre{
 	position: relative;
 	margin: auto;
 	max-width: $grid;
+	padding: $gutter 0;
 	width: 100%;
 	background: $wrapperBgColor;
 }
@@ -158,7 +160,7 @@ pre{
 [class*="s-"]{
 	position: relative;
 	display: block;
-	padding: $gutter;
+	padding: 0 $gutter 0 $gutter;
 }
 
 .demo{
@@ -167,6 +169,7 @@ pre{
 	[class*="S-"], 
 	[class*="s-"]{
 		border: 1px solid #fff;
+		padding: $gutter;
 		color: #fff;
 		text-align: center;
 		background-color: #E37863;

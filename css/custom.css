@@ -80,10 +80,6 @@ p {
   font-size: 1.2em;
   line-height: 1.4em;
 }
-/* line 82, ../sass/_coolz.scss */
-p:last-child {
-  margin-bottom: 0;
-}
 
 /* line 87, ../sass/_coolz.scss */
 a {
@@ -94,11 +90,12 @@ a {
 /* line 93, ../sass/_coolz.scss */
 img,
 iframe {
+  margin-bottom: 0.6em;
   max-width: 100%;
   height: auto;
 }
 
-/* line 98, ../sass/_coolz.scss */
+/* line 99, ../sass/_coolz.scss */
 pre {
   margin-bottom: 1.25em;
   border: 1px solid #ccc;
@@ -112,40 +109,41 @@ pre {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 107, ../sass/_coolz.scss */
+/* line 108, ../sass/_coolz.scss */
 pre code {
   word-break: break-all;
 }
 
-/* line 112, ../sass/_coolz.scss */
+/* line 113, ../sass/_coolz.scss */
 .wrapper-main {
   position: relative;
   margin: auto;
   max-width: 1280px;
+  padding: 1.25em 0;
   width: 100%;
   background: white;
 }
 
-/* line 120, ../sass/_coolz.scss */
+/* line 122, ../sass/_coolz.scss */
 .row {
   position: relative;
   display: block;
   width: 100%;
 }
-/* line 125, ../sass/_coolz.scss */
+/* line 127, ../sass/_coolz.scss */
 .row .row {
   margin-left: -1.25em;
   margin-right: -1.25em;
   width: auto;
 }
-/* line 131, ../sass/_coolz.scss */
+/* line 133, ../sass/_coolz.scss */
 .row:before, .row:after {
   display: table;
   content: " ";
   clear: both;
 }
 
-/* line 143, ../sass/_coolz.scss */
+/* line 145, ../sass/_coolz.scss */
 .columns,
 .column,
 .col,
@@ -154,7 +152,7 @@ pre code {
 .coolz {
   float: left;
 }
-/* line 146, ../sass/_coolz.scss */
+/* line 148, ../sass/_coolz.scss */
 .columns:last-child,
 .column:last-child,
 .col:last-child,
@@ -164,7 +162,7 @@ pre code {
   float: right;
 }
 
-/* line 158, ../sass/_coolz.scss */
+/* line 160, ../sass/_coolz.scss */
 [class*="Large-"],
 [class*="large-"],
 [class*="L-"],
@@ -175,20 +173,21 @@ pre code {
 [class*="s-"] {
   position: relative;
   display: block;
-  padding: 1.25em;
+  padding: 0 1.25em 0 1.25em;
 }
 
-/* line 168, ../sass/_coolz.scss */
+/* line 170, ../sass/_coolz.scss */
 .demo [class*="L-"],
 .demo [class*="l-"],
 .demo [class*="S-"],
 .demo [class*="s-"] {
   border: 1px solid #fff;
+  padding: 1.25em;
   color: #fff;
   text-align: center;
   background-color: #E37863;
 }
-/* line 174, ../sass/_coolz.scss */
+/* line 177, ../sass/_coolz.scss */
 .demo [class*="L-"]:nth-child(odd),
 .demo [class*="l-"]:nth-child(odd),
 .demo [class*="S-"]:nth-child(odd),
@@ -196,7 +195,7 @@ pre code {
   background-color: #eb9f90;
 }
 
-/* line 183, ../sass/_coolz.scss */
+/* line 186, ../sass/_coolz.scss */
 .Large-12,
 .large-12,
 .L-12,
@@ -204,7 +203,7 @@ pre code {
   width: 100%;
 }
 
-/* line 190, ../sass/_coolz.scss */
+/* line 193, ../sass/_coolz.scss */
 .Large-11,
 .large-11,
 .L-11,
@@ -212,7 +211,7 @@ pre code {
   width: 91.666%;
 }
 
-/* line 197, ../sass/_coolz.scss */
+/* line 200, ../sass/_coolz.scss */
 .Large-10,
 .large-10,
 .L-10,
@@ -220,7 +219,7 @@ pre code {
   width: 83.333%;
 }
 
-/* line 204, ../sass/_coolz.scss */
+/* line 207, ../sass/_coolz.scss */
 .Large-9,
 .large-9,
 .L-9,
@@ -228,7 +227,7 @@ pre code {
   width: 75%;
 }
 
-/* line 211, ../sass/_coolz.scss */
+/* line 214, ../sass/_coolz.scss */
 .Large-8,
 .large-8,
 .L-8,
@@ -236,7 +235,7 @@ pre code {
   width: 66.666%;
 }
 
-/* line 218, ../sass/_coolz.scss */
+/* line 221, ../sass/_coolz.scss */
 .Large-7,
 .large-7,
 .L-7,
@@ -244,7 +243,7 @@ pre code {
   width: 58.333%;
 }
 
-/* line 225, ../sass/_coolz.scss */
+/* line 228, ../sass/_coolz.scss */
 .Large-6,
 .large-6,
 .L-6,
@@ -252,7 +251,7 @@ pre code {
   width: 50%;
 }
 
-/* line 232, ../sass/_coolz.scss */
+/* line 235, ../sass/_coolz.scss */
 .Large-5,
 .large-5,
 .L-5,
@@ -260,7 +259,7 @@ pre code {
   width: 41.666%;
 }
 
-/* line 239, ../sass/_coolz.scss */
+/* line 242, ../sass/_coolz.scss */
 .Large-4,
 .large-4,
 .L-4,
@@ -268,7 +267,7 @@ pre code {
   width: 33.333%;
 }
 
-/* line 246, ../sass/_coolz.scss */
+/* line 249, ../sass/_coolz.scss */
 .Large-3,
 .large-3,
 .L-3,
@@ -276,7 +275,7 @@ pre code {
   width: 25%;
 }
 
-/* line 253, ../sass/_coolz.scss */
+/* line 256, ../sass/_coolz.scss */
 .Large-2,
 .large-2,
 .L-2,
@@ -284,7 +283,7 @@ pre code {
   width: 16.666%;
 }
 
-/* line 260, ../sass/_coolz.scss */
+/* line 263, ../sass/_coolz.scss */
 .Large-1,
 .large-1,
 .L-1,
