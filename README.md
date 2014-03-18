@@ -1,11 +1,11 @@
 # coolz™
 
-12 grid light weight column framework (extended version).
+Light weight 12 column grid.
 
-This SCSS (or CSS, if you like) framework is for those of you who just want a simple column 12 grid with no extra styling that you have to override.
+This SCSS framework is for those of you who just want a simple 12 column grid with no extra styling that you have to override.
 
 
-### How to
+### Clone it
 
 	$ git clone git@github.com:tommyskott/coolz.git
 
