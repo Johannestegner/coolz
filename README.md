@@ -16,4 +16,7 @@ A scss 12 column grid with no extra styling.
 		<div class="L-6 col">6</div>
 	</div>
 
+### Support
+List of supported browsers coming soon.
+
 [View demo](http://lab.tommyskott.se/coolz)
