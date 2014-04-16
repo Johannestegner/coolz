@@ -1,0 +1,94 @@
+body{
+	font-family: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
+	font-size: 100%;
+	line-height: 100%;
+	color: #222;
+	background: #70D5C5;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0.3em;
+	line-height: 1em;
+	color: $txtColor;
+
+	a{
+		text-decoration: none;
+	}
+}
+
+h1{
+	margin-bottom: 0.2em;
+	font-size: 3.5em;
+}
+
+h2{
+	margin-bottom: 0.3em;
+	font-size: 3em;
+}
+
+h3{
+	margin-bottom: 0.3em;
+	font-size: 2.5em;
+}
+
+h4{
+	font-size: 2em;
+}
+
+h5{
+	font-size: 1.5em;
+}
+
+h6{
+	font-size: 1.2em;
+}
+
+.light, 
+.thin{
+	font-weight: normal;
+}
+
+img{
+	margin-bottom: $margin;
+}
+
+p{
+	margin-bottom: $margin;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: $txtSize;
+	line-height: $lineHeight;
+}
+
+a{
+	color: $linkColor;
+	text-decoration: underline;
+}
+
+pre{
+	margin-bottom: $gutter;
+	border: 1px solid #ccc;
+	padding: 5px 8px 5px 8px;
+	word-break: break-all;
+	background-color: #eee;
+	overflow-x: hidden;
+	@include border-radius(4px);
+
+	code{
+		word-break: break-all;
+	}
+}
+
+.demo section{
+	[class*="l-"], 
+	[class*="s-"]{
+		border: 1px solid #fff;
+		padding: $gutter;
+		color: #fff;
+		text-align: center;
+		background-color: #E37863;
+
+		&:nth-child(odd){
+			background-color: #eb9f90;
+		}
+	}
+}

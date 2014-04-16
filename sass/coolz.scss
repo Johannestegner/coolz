@@ -1,0 +1,74 @@
+@import "compass";
+@import "vars";
+@import "mixins";
+@import "demo";
+
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	@include box-sizing(border-box);
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper-main{
+	position: relative;
+	margin: auto;
+	max-width: $grid;
+	padding: $gutter 0;
+	width: 100%;
+	background: white;
+}
+
+.row{
+	position: relative;
+	display: block;
+	width: 100%;
+
+	&:before, &:after{
+		display: table;
+		content: " ";
+		clear: both;
+	}
+
+	.row{
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		width: auto;
+	}
+}
+
+.col{
+	float: left;
+
+	&:last-child{
+		float: right;
+	}
+}
+
+[class*="l-"], 
+[class*="s-"]{
+	position: relative;
+	display: block;
+	padding: 0 $gutter 0 $gutter;
+}
+
+.l-12{ width: percentage(12/12); }
+.l-11{ width: percentage(11/12); }
+.l-10{ width: percentage(10/12); }
+.l-9{ width: percentage(9/12); }
+.l-8{ width: percentage(8/12); }
+.l-7{ width: percentage(7/12); }
+.l-6{ width: percentage(6/12); }
+.l-5{ width: percentage(5/12); }
+.l-4{ width: percentage(4/12); }
+.l-3{ width: percentage(3/12); }
+.l-2{ width: percentage(2/12); }
+.l-1{ width: percentage(1/12); }
+
+@import "ie";
+@import "media";
