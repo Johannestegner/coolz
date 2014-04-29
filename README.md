@@ -1,9 +1,9 @@
 # coolz™
 
-### Light weight 12 column grid.
+### A light weight 12 column grid framework
 
 
-A scss 12 column grid with no extra styling.
+This SCSS (or CSS, if you like) grid is for those of you who just want a simple 12 column grid, with no extra styling that you want to override anyway.
 
 
 ### Clone it
@@ -12,11 +12,20 @@ A scss 12 column grid with no extra styling.
 
 ### Layout
 	<div class="row">
-		<div class="L-6 col">6</div>
-		<div class="L-6 col">6</div>
+		<div class="s-4 l-6 col">
+
+		</div>
+		
+		<div class="s-4 l-6 col">
+
+		</div>
+		
+		<div class="s-4 l-12 col">
+
+		</div>
 	</div>
 
-### Support
-List of supported browsers coming soon.
+### Browser Support
+List of supported browsers coming soon (if ever).
 
 [View demo](http://lab.tommyskott.se/coolz)
