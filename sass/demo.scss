@@ -3,17 +3,32 @@
 @import "mixins";
 
 body{
-	font-family: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
-	font-size: 100%;
-	line-height: 100%;
-	color: #222;
 	background: #70D5C5;
+
+	&.demo section{
+		.row{
+			border-bottom: 1px solid white;
+		}
+
+		[class^="l-"], 
+		[class^="m-"], 
+		[class^="s-"]{
+			padding: $gutter;
+			color: #fff;
+			text-align: center;
+			background-color: #E37863;
+
+			&:nth-child(odd){
+				background-color: #eb9f90;
+			}
+		}
+	}
 }
 
 h1, h2, h3, h4, h5, h6{
 	margin-bottom: 0.3em;
 	line-height: 1em;
-	color: $txtColor;
+	color: $color;
 
 	a{
 		text-decoration: none;
@@ -52,36 +67,17 @@ h6{
 	font-weight: normal;
 }
 
-img{
-	margin-bottom: $margin;
+img, p{
+	margin-bottom: 0.6em;
 }
 
 p{
-	margin-bottom: $margin;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: $txtSize;
-	line-height: $lineHeight;
+	font-size: 1.2em;
+	line-height: 1.4em;
 }
 
 a{
 	color: $linkColor;
 	text-decoration: underline;
-}
-
-.demo section{
-	.row{
-		border-bottom: 1px solid white;
-	}
-
-	[class*="l-"], 
-	[class*="s-"]{
-		padding: $gutter;
-		color: #fff;
-		text-align: center;
-		background-color: #E37863;
-
-		&:nth-child(odd){
-			background-color: #eb9f90;
-		}
-	}
 }

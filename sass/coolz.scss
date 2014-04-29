@@ -5,8 +5,14 @@
 *, *:before, *:after{
 	margin: 0;
 	padding: 0;
-	outline: none;
 	@include box-sizing(border-box);
+}
+
+body{
+	font-family: $fontFamily;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	color: $color;
 }
 
 img{
@@ -14,7 +20,7 @@ img{
 	height: auto;
 }
 
-.wrapper-main{
+.wrapper{
 	position: relative;
 	margin: auto;
 	max-width: $grid;
@@ -34,11 +40,12 @@ img{
 		clear: both;
 	}
 
-	.row{
+	// Keep this part below?
+	/*.row{
 		margin-left: -$gutter;
 		margin-right: -$gutter;
 		width: auto;
-	}
+	}*/
 }
 
 .col{
@@ -47,12 +54,16 @@ img{
 	&:last-child{
 		float: right;
 	}
+
+	&:first-child{
+		float: left;
+	}
 }
 
-[class*="l-"], 
-[class*="s-"]{
+[class^="l-"], 
+[class^="m-"], 
+[class^="s-"]{
 	position: relative;
-	display: block;
 	padding: 0 $gutter 0 $gutter;
 }
 
@@ -68,6 +79,7 @@ img{
 .l-3{ width: percentage(3/12); }
 .l-2{ width: percentage(2/12); }
 .l-1{ width: percentage(1/12); }
+
 
 @import "ie";
 @import "media";

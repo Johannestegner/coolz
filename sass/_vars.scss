@@ -1,11 +1,10 @@
 /* Coolz - Settings */
 
-$grid: 1280px;
+$grid: 1280px; /* Change to 100% for fluid grid */
 $gutter: 1.25em;
-$margin: 0.6em;
-$border: 1px solid #eee;
 
-$txtSize: 1.2em;
-$lineHeight: 1.4em;
-$txtColor: #222;
+$fontFamily: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
+$fontSize: 100%;
+$lineHeight: 100%;
+$color: #222;
 $linkColor: #222;
