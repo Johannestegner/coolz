@@ -1,3 +1,7 @@
+@import "compass";
+@import "vars";
+@import "mixins";
+
 body{
 	font-family: "Helvetica Neue", "Helvetica", helvetica, arial, sans-serif;
 	font-size: 100%;
@@ -64,24 +68,13 @@ a{
 	text-decoration: underline;
 }
 
-pre{
-	margin-bottom: $gutter;
-	border: 1px solid #ccc;
-	padding: 5px 8px 5px 8px;
-	word-break: break-all;
-	background-color: #eee;
-	overflow-x: hidden;
-	@include border-radius(4px);
-
-	code{
-		word-break: break-all;
-	}
-}
-
 .demo section{
+	.row{
+		border-bottom: 1px solid white;
+	}
+
 	[class*="l-"], 
 	[class*="s-"]{
-		border: 1px solid #fff;
 		padding: $gutter;
 		color: #fff;
 		text-align: center;
